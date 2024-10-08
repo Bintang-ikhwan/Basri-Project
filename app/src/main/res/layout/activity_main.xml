@@ -25,5 +25,6 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="225dp" />
+        tools:layout_editor_absoluteY="225dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

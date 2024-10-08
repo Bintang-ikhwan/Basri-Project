@@ -15,7 +15,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ellipse_1"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -23,7 +24,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/logo_kecil"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="59dp" />
+        tools:layout_editor_absoluteY="59dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -31,7 +33,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/group_72"
         tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="748dp" />
+        tools:layout_editor_absoluteY="748dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -39,6 +42,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/t"
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="217dp" />
+        tools:layout_editor_absoluteY="217dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
