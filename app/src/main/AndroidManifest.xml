@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BasriProject"
         tools:targetApi="31">
         <activity
+            android:name=".pilihkursi_To_Indralaya"
+            android:exported="false" />
+        <activity
             android:name=".damri_To_Indralayo"
             android:exported="false" />
         <activity
