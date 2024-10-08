@@ -26,18 +26,19 @@
         tools:layout_editor_absoluteY="59dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/group_83"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="224dp" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/group_72"
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="748dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/t"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="217dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
