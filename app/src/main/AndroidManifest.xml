@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BasriProject"
         tools:targetApi="31">
         <activity
+            android:name=".pembayaran_berhasil_to_plg"
+            android:exported="false" />
+        <activity
             android:name=".pesan_damri_plg"
             android:exported="false" />
         <activity
