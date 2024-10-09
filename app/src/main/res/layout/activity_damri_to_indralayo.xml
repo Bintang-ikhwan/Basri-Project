@@ -11,30 +11,28 @@
         android:id="@+id/imageView16"
         android:layout_width="472dp"
         android:layout_height="411dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/frame_12027"
-        tools:layout_editor_absoluteY="-3dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
         app:srcCompat="@drawable/group_84"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="263dp"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/group_85"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="592dp"
-        tools:ignore="MissingConstraints" />
+
 
     <ImageView
         android:id="@+id/imageView19"
@@ -44,4 +42,16 @@
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="57dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnjadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="btnjadwal"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.931"
+        app:srcCompat="@drawable/group_85" />
 </androidx.constraintlayout.widget.ConstraintLayout>

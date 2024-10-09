@@ -11,36 +11,53 @@
         android:id="@+id/imageView15"
         android:layout_width="437dp"
         android:layout_height="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangle_4250"
-        tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.114"
         app:srcCompat="@drawable/frame_12040"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="116dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
         app:srcCompat="@drawable/group_86"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="227dp"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView22"
+
+
+    <ImageButton
+        android:id="@+id/konfirmbayar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/kembali"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="62dp"
-        tools:ignore="MissingConstraints" />
+        android:contentDescription="konfirmbayar"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/konfirm_bayar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

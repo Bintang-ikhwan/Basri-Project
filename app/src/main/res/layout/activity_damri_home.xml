@@ -14,27 +14,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/frame_12027"
-        tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
         app:srcCompat="@drawable/group_70"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="270dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
         app:srcCompat="@drawable/group_71"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="597dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -44,4 +49,20 @@
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="53dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnindralaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="btnindralaya"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@drawable/btnindralaya" />
 </androidx.constraintlayout.widget.ConstraintLayout>
