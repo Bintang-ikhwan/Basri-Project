@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BasriProject"
         tools:targetApi="31">
         <activity
+            android:name=".damri_to_palembang"
+            android:exported="false" />
+        <activity
             android:name=".tiket_to_indralaya"
             android:exported="false" />
         <activity
