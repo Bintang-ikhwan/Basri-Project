@@ -5,42 +5,56 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pilih_kursi_to_plg">
+    tools:context=".pilihkursi_To_Indralaya">
 
     <ImageView
-        android:id="@+id/imageView33"
+        android:id="@+id/imageView15"
         android:layout_width="439dp"
         android:layout_height="379dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_editor_absoluteY="-35dp"
         app:srcCompat="@drawable/rectangle_4251"
-        tools:layout_editor_absoluteY="-35dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView34"
+        android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.114"
         app:srcCompat="@drawable/frame_12040"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="131dp"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/group_95"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="217dp"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView36"
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/konfirm_bayar"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="792dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        app:srcCompat="@drawable/group_86"
         tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/konfirmbayar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="konfirmbayar2"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921"
+        app:srcCompat="@drawable/konfirm_bayar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,17 @@ class damri_home : AppCompatActivity() {
 
             val intent = Intent(this, damri_To_Indralayo::class.java)
             startActivity(intent)
+
+
+            val btnpalembang = findViewById<ImageButton>(R.id.btnpalembang)
+
+            btnpalembang.setOnClickListener {
+
+                val intent = Intent(this, damri_to_palembang::class.java)
+                startActivity(intent)
+
+            }
         }
     }
+
 }

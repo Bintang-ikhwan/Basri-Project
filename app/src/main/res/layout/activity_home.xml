@@ -32,11 +32,12 @@
         android:id="@+id/imageView10"
         android:layout_width="416dp"
         android:layout_height="81dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/group_68" />
+        app:srcCompat="@drawable/group_101" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -64,4 +65,20 @@
         app:layout_constraintTop_toTopOf="@+id/imageView5"
         app:layout_constraintVertical_bias="0.615"
         app:srcCompat="@drawable/btn_pilih" />
+
+    <ImageButton
+        android:id="@+id/btnticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="btntiket"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981"
+        app:srcCompat="@drawable/bottomtiket" />
 </androidx.constraintlayout.widget.ConstraintLayout>

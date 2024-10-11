@@ -21,8 +21,26 @@
         android:id="@+id/imageView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/group_89"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="314dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnlanjutkanplg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="lanjutkanplg"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635"
+        app:srcCompat="@drawable/btn_lanjutkan" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

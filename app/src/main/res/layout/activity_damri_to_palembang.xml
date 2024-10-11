@@ -9,30 +9,40 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="462dp"
-        android:layout_height="484dp"
+        android:layout_width="480dp"
+        android:layout_height="406dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/frame_12027"
-        tools:layout_editor_absoluteY="-34dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382"
         app:srcCompat="@drawable/to_plg"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="239dp"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView32"
+    <ImageButton
+        android:id="@+id/btnjadwalpalembang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/to_plg_jadwal"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="575dp"
-        tools:ignore="MissingConstraints" />
+        android:contentDescription="jadwalpalembang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/group_85" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,8 @@
 package com.example.basriproject
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,13 @@ class pesan_damri_plg : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_pesan_damri_plg)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val pesandamriplg = findViewById<ImageButton>(R.id.pesandamriplg)
+
+        pesandamriplg.setOnClickListener {
+
+            val intent = Intent(this, pembayaran_berhasil_to_plg::class.java)
+            startActivity(intent)
         }
     }
 }

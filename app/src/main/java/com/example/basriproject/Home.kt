@@ -20,6 +20,14 @@ class Home : AppCompatActivity() {
 
             val intent = Intent(this, damri_home::class.java)
             startActivity(intent)
+
+            val btnticket = findViewById<ImageButton>(R.id.btnticket)
+
+            btnticket.setOnClickListener {
+
+                val intent = Intent(this, tiket_home::class.java)
+                startActivity(intent)
+            }
         }
     }
 }

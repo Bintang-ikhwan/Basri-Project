@@ -15,9 +15,7 @@
         <activity
             android:name=".tiket_home"
             android:exported="false" />
-        <activity
-            android:name=".tiket_to_plg"
-            android:exported="false" />
+
         <activity
             android:name=".pembayaran_berhasil_to_plg"
             android:exported="false" />
