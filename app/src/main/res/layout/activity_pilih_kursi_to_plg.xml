@@ -13,7 +13,7 @@
         android:layout_height="379dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/rectangle_4250"
+        app:srcCompat="@drawable/rectangle_4251"
         tools:layout_editor_absoluteY="-35dp"
         tools:ignore="MissingConstraints" />
 
