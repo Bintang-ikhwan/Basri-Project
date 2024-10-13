@@ -11,10 +11,10 @@
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="454dp"
-        android:layout_height="901dp"
+        android:layout_height="936dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -71,7 +71,7 @@
         app:srcCompat="@drawable/group_107" />
 
     <ImageButton
-        android:id="@+id/btnakun"
+        android:id="@+id/btnakun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
@@ -84,15 +84,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/bottomakun" />
 
-    <ImageView
-        android:id="@+id/imageView27"
+    <ImageButton
+        android:id="@+id/btnberanda1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:contentDescription="btnberanda1"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/group_106" />
+        app:srcCompat="@drawable/berandabottom" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
