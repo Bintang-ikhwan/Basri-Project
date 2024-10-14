@@ -14,6 +14,15 @@ class tiket_home : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_tiket_home)
 
+        val btnakun1 = findViewById<ImageButton>(R.id.btnakun1)
+
+        btnakun1.setOnClickListener {
+
+            val intent = Intent(this, profile::class.java)
+            startActivity(intent)
+
+        }
+
         val btnberanda1 = findViewById<ImageButton>(R.id.btnberanda1)
 
         btnberanda1.setOnClickListener {
@@ -21,14 +30,7 @@ class tiket_home : AppCompatActivity() {
             val intent = Intent(this, Home::class.java)
             startActivity(intent)
 
-            val btnakun1 = findViewById<ImageButton>(R.id.btnakun1)
 
-            btnakun1.setOnClickListener {
-
-                val intent = Intent(this, profile::class.java)
-                startActivity(intent)
-
-            }
         }
     }
 }

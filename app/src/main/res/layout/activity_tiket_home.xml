@@ -85,7 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.981"
-        app:srcCompat="@drawable/bottomakun" />
+        app:srcCompat="@drawable/btnakun" />
 
     <ImageButton
         android:id="@+id/btnberanda1"

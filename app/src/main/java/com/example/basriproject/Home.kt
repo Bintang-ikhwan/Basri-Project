@@ -14,6 +14,14 @@ class Home : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_home)
 
+        val btnticket = findViewById<ImageButton>(R.id.btnticket)
+
+        btnticket.setOnClickListener {
+
+            val intent = Intent(this, tiket_home::class.java)
+            startActivity(intent)
+        }
+
         val btnpilih = findViewById<ImageButton>(R.id.btnpilih)
 
         btnpilih.setOnClickListener {
@@ -21,13 +29,20 @@ class Home : AppCompatActivity() {
             val intent = Intent(this, damri_home::class.java)
             startActivity(intent)
 
-            val btnticket = findViewById<ImageButton>(R.id.btnticket)
 
-            btnticket.setOnClickListener {
 
-                val intent = Intent(this, tiket_home::class.java)
-                startActivity(intent)
-            }
+
+        }
+        val btnakun12 = findViewById<ImageButton>(R.id.btnakun12)
+
+        btnakun12.setOnClickListener {
+
+            val intent = Intent(this, profile::class.java)
+            startActivity(intent)
+
+
+
+
         }
     }
 }
