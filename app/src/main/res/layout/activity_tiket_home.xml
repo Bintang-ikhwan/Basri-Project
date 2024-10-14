@@ -74,14 +74,17 @@
         android:id="@+id/btnakun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="16dp"
         android:background="@null"
         android:contentDescription="akunbutton"
         android:minWidth="48dp"
         android:minHeight="48dp"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981"
         app:srcCompat="@drawable/bottomakun" />
 
     <ImageButton
