@@ -14,6 +14,15 @@ class damri_home : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_damri_home)
 
+        val btnpalembang = findViewById<ImageButton>(R.id.btnpalembang)
+
+        btnpalembang.setOnClickListener {
+
+            val intent = Intent(this, damri_to_palembang::class.java)
+            startActivity(intent)
+
+        }
+
         val btnindralaya = findViewById<ImageButton>(R.id.btnindralaya)
 
         btnindralaya.setOnClickListener {
@@ -22,14 +31,7 @@ class damri_home : AppCompatActivity() {
             startActivity(intent)
 
 
-            val btnpalembang = findViewById<ImageButton>(R.id.btnpalembang)
 
-            btnpalembang.setOnClickListener {
-
-                val intent = Intent(this, damri_to_palembang::class.java)
-                startActivity(intent)
-
-            }
         }
     }
 
